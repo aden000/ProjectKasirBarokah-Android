@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="23dp">
+
+    <TextView
+        android:id="@+id/tv_namaKategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Kategori"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_namaKategori"
+        />
+
+    <EditText
+        android:id="@+id/etnamabarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Barang"
+        android:layout_below="@id/spinner_kategori"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <EditText
+        android:id="@+id/ethargabarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga Barang"
+        android:layout_below="@id/etnamabarang"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <EditText
+        android:id="@+id/etstokbarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ethargabarang"
+        android:hint="Stok Awal"
+        />
+
+</RelativeLayout>
